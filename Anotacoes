@@ -13,7 +13,14 @@ Casting: int a, b;
 
 Entrada de dados:
 Scanner: next() = String
+		 OBS: Os dados da forma que estão só leram até uma palavra
 		 nextInt() = Inteiro
 		 nextDouble() = Double
-		 next().charAt(0) = ler o primeiro caractere de uma possível Strng
-Cuidado com a localidade da Máquina.
+		 next().charAt(0) = ler o primeiro caractere de uma possível String
+		 DICA: ctrl + shift + f identa o código.
+Cuidado com a localidade da Máquina (. ou ,).
+
+Entrada Para Strings com separação;
+	nextLine() = Strings com mais de uma palavra.
+	OBS: Se antes de realizar a leitura desse dado for feita uma leitura anteriores, é importante lembrar que ao dar o enter
+		o nextLine() irá consumir o espaço como se fosse uma String e portanto o código ficará errado.
