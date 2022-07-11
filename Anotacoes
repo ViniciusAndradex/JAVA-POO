@@ -4,3 +4,9 @@ nenhum acento e por padrão usamos CamelCase com a primeira letra minúscula.
 
 Preocessamento :
 Atribuição: '=' recebe.
+
+Boa prática: quando declarar uma var do tipo double sempre declarar com .0 no final 
+e no caso de um float declarar com 8'f'
+
+Casting: int a, b;
+		 double res = (double) a / b;
