@@ -10,3 +10,4 @@ e no caso de um float declarar com 8'f'
 
 Casting: int a, b;
 		 double res = (double) a / b;
+		 
