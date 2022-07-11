@@ -25,3 +25,4 @@ replay_pid*
 JavaPOO/.classpath
 JavaPOO/.settings/org.eclipse.jdt.core.prefs
 JavaPOO/.project
+/bin/
