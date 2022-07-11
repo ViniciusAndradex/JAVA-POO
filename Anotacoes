@@ -10,4 +10,10 @@ e no caso de um float declarar com 8'f'
 
 Casting: int a, b;
 		 double res = (double) a / b;
-		 
+
+Entrada de dados:
+Scanner: next() = String
+		 nextInt() = Inteiro
+		 nextDouble() = Double
+		 next().charAt(0) = ler o primeiro caractere de uma possível Strng
+Cuidado com a localidade da Máquina.
