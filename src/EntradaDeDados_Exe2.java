@@ -10,7 +10,7 @@ public class EntradaDeDados_Exe2 {
 		
 		double raio;
 
-		System.out.println("Digite o Raio: ");
+		System.out.print("Digite o Raio: ");
 		raio = sc.nextDouble();
 		
 		System.out.printf("A = %.4f", Math.PI * Math.pow(raio, 2.0));
