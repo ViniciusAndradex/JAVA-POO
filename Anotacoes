@@ -51,3 +51,13 @@ default:
 Condicional Ternária [não gosto]:
 ( condição ) ? valor_se_verdadeiro : valor_se_falso
 
+Escopo e Inicialização: Em java a var só pode ser utilizada se inicializada (se não for inicializadao código não compila.).
+Escopo : o local onde for declarada a variável indica a sua utilização, por tanto é importante saber onde declarar e como declarar, tendo em vista que a var sempre tem que ser inicializada é importante que observe todo o contexto de estruturas para que seja possível uma compilação.
+
+OBS: ctrl+shift+f, autoidenta o cod.
+Debug: marcar breakpoint - inicializar - f6 para rodar passo a passo - entre outros
+
+While: 
+while (<condição>) {
+        <bloco>       
+}
