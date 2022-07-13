@@ -16,6 +16,8 @@ public class EntradaDeDados_Exe5 {
 		
 		valor = (nump1 * valUni1) + (nump2 * valUni2);
 		
+		System.out.printf("%s VALOR R$%.2f%n", cod1, nump1 * valUni1);
+		System.out.printf("%s VALOR R$%.2f%n", cod2, nump2 * valUni2);
 		System.out.printf("VALOR A PAGAR: R$%.2f%n", valor);
 		
 		sc.close();
