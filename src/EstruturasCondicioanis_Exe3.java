@@ -8,7 +8,8 @@ public class EstruturasCondicioanis_Exe3 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int a, b, mult;
+		int a, b;
+		boolean multiplo = false;
 		
 		System.out.print("A: ");
 		a = sc.nextInt();
@@ -16,24 +17,23 @@ public class EstruturasCondicioanis_Exe3 {
 		b = sc.nextInt();
 		
 		if (b > a) {
-			mult = b / a;
-			if (mult % a == 0) {
-				System.out.println("SAO MULTIPLO");
+			if (b % a == 0) {
+				multiplo = true;
 			}
-			else {
-				System.out.println("NAO SAO MULTIPLO");
-			}
+			
 		}
 		else {
-			mult = a / b;
-			if (mult % a == 0) {
-				System.out.println("SAO MULTIPLO");
-			}
-			else {
-				System.out.println("NAO SAO MULTIPLO");
+			if (a % b == 0) {
+				multiplo = true;
 			}
 		}
 		
+		if (multiplo == true) {
+			System.out.println("SAO MULTIPLOS");
+		}
+		else {
+			System.out.println("NAO SAO MULTIPLOS");
+		}
 		
 		sc.close();
 		
