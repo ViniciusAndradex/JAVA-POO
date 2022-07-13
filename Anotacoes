@@ -24,3 +24,7 @@ Entrada Para Strings com separação;
 	nextLine() = Strings com mais de uma palavra.
 	OBS: Se antes de realizar a leitura desse dado for feita uma leitura anteriores, é importante lembrar que ao dar o enter
 		o nextLine() irá consumir o espaço como se fosse uma String e portanto o código ficará errado.
+		
+		
+Expressoões comparativas:
+
