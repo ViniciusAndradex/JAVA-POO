@@ -36,3 +36,4 @@ else {<comandos>}
 Existe a possibilidade de encadear as estruturas aninhando as mesmas (não gosto).
 OBS: Se só houver 1 componente pode por o if sem as chaves.
 
+Atribuição cumulativa:  += | -= | *= | %= | /= 
