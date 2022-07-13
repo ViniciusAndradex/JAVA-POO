@@ -61,3 +61,9 @@ While:
 while (<condição>) {
         <bloco>       
 }
+
+for:
+for (<(inicializada manualmente (normalmente): int x = 1 )inicio> ; <condição> ; <incremento>) {
+	<bloco>
+}
+
