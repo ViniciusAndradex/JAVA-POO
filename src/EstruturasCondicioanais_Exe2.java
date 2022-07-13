@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EstruturasCondicioanis_Exe2 {
+public class EstruturasCondicioanais_Exe2 {
 
 	public static void main(String[] args) {
 

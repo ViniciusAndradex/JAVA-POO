@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class EstruturasCondicioanis_Exe7 {
+public class EstruturasCondicioanais_Exe7 {
 
 	public static void main(String[] args) {
 		
