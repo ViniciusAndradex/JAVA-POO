@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class EstruturasCondicioanais_Exe3 {
 
 	public static void main(String[] args) {
