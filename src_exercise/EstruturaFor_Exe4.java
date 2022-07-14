@@ -13,9 +13,11 @@ public class EstruturaFor_Exe4 {
 			
 			if (b == 0) {
 				System.out.println("Divisao Impossivel");
+				System.out.println();
 			}
 			else {
 				System.out.println("Divisao de " + a + " por " + b + " = " + ((double) a / b) );
+				System.out.println();
 			}
 			
 		}
