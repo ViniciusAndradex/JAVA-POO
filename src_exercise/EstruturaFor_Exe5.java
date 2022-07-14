@@ -9,7 +9,10 @@ public class EstruturaFor_Exe5 {
 		int n = sc.nextInt(), fact = 1;
 		
 		for (int i = n; i > 0 ; i--) {
-			fact = n * i;
+			if (n == 0)
+				fact = 1;
+			else
+				fact *= i;
 		}
 		
 		System.out.println(fact + " ");
