@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class While_teste {
+public class While_Teste {
 
 	public static void main(String[] args) {
 		
