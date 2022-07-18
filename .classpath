@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="src_exercise"/>
 	<classpathentry kind="src" path="src_poo_application"/>
+	<classpathentry kind="src" path="src_atv_logica_programacao"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
