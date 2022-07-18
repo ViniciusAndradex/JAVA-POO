@@ -34,6 +34,8 @@ public class DoWhile_Teste {
 		
 		System.out.println("Obrigado por usar nosso app.");
 		
+		sc.close();
+		
 	}
 
 }
