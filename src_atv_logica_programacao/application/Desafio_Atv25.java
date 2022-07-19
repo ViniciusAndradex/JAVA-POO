@@ -1,3 +1,4 @@
+package application;
 import java.util.Scanner;
 
 public class Desafio_Atv25 {
