@@ -18,9 +18,9 @@ public class Atv23 {
 		preco = sc.nextDouble();
 		
 		if (sexo == 'f') 
-			System.out.printf("Valor total: R$%.2f%n", (preco * 13 / 100) + preco);
+			System.out.printf("Cliente: %s | Valor total: R$%.2f%n", nome, (preco * 13 / 100) + preco);
 		else 
-			System.out.printf("Valor total: R$%.2f%n", (preco * 5 / 100) + preco);
+			System.out.printf("Cliente: %s | Valor total: R$%.2f%n", nome, (preco * 5 / 100) + preco);
 		
 		sc.close();
 		
