@@ -21,17 +21,15 @@ public class Triangle {
 		return teste;
 	}
 	
-	private String resposta() {
-		String resp;
-		if (triangulo() == true)
-			resp = "E possivel formar um triangulo!";
-		else
-			resp = "Nao e possivel formar um triangulo";
-		return resp;
+	public String tipoTriangulo() {
+		String tipo;
+		if (a == b && b == c) 
+			tipo = "EQUILATERO";
+		else if (a == b && b != c)
+			tipo = "ISOSCELES";
+		else 
+			tipo = "ESCALENO";
+		return tipo;
 	}
-	
-	public String toString() {
-		return resposta();
-	}
-	
+
 }
